@@ -1,0 +1,136 @@
+[
+    {
+        "nome": "Frango Grelhado",
+        "categoria": "Prato Principal",
+        "cozinha": "Brasileira",
+        "instrucoes": "1. Tempere o frango com sal e azeite e deixe marinar por 15 minutos.\n2. Aqueça uma frigideira em fogo médio e adicione um fio de azeite.\n3. Coloque o frango na frigideira e grelhe por aproximadamente 5 minutos de cada lado, até dourar bem.\n4. Sirva quente, acompanhado de salada ou arroz.",
+        "ingredientes": [
+            {"nome": "Frango", "quantidade": "200g"},
+            {"nome": "Sal", "quantidade": "a gosto"},
+            {"nome": "Azeite", "quantidade": "1 colher de sopa"}
+        ]
+    },
+    {
+        "nome": "Sopa de Legumes",
+        "categoria": "Sopa",
+        "cozinha": "Internacional",
+        "instrucoes": "1. Em uma panela grande, aqueça o azeite e refogue a cebola e o alho até dourarem.\n2. Adicione a cenoura, a batata e o caldo de legumes.\n3. Deixe cozinhar por aproximadamente 20 minutos, até os legumes ficarem macios.\n4. Tempere com sal e pimenta a gosto.\n5. Sirva quente, acompanhado de torradas.",
+        "ingredientes": [
+            {"nome": "Cenoura", "quantidade": "1 unidade"},
+            {"nome": "Batata", "quantidade": "2 unidades"},
+            {"nome": "Caldo de legumes", "quantidade": "500ml"},
+            {"nome": "Cebola", "quantidade": "1 unidade"},
+            {"nome": "Alho", "quantidade": "2 dentes"},
+            {"nome": "Sal", "quantidade": "a gosto"},
+            {"nome": "Pimenta", "quantidade": "a gosto"},
+            {"nome": "Azeite", "quantidade": "1 colher de sopa"}
+        ]
+    },
+    {
+        "nome": "Macarrão ao Molho Pesto",
+        "categoria": "Prato Principal",
+        "cozinha": "Italiana",
+        "instrucoes": "1. Cozinhe o macarrão em água fervente com sal até ficar al dente.\n2. No liquidificador, bata o manjericão, o queijo parmesão, as castanhas e o azeite até formar um molho homogêneo.\n3. Escorra o macarrão e misture com o molho pesto.\n4. Sirva imediatamente, polvilhado com mais queijo parmesão.",
+        "ingredientes": [
+            {"nome": "Macarrão", "quantidade": "200g"},
+            {"nome": "Manjericão", "quantidade": "1 maço"},
+            {"nome": "Queijo parmesão", "quantidade": "50g"},
+            {"nome": "Castanhas", "quantidade": "30g"},
+            {"nome": "Azeite", "quantidade": "2 colheres de sopa"},
+            {"nome": "Sal", "quantidade": "a gosto"}
+        ]
+    },
+    {
+        "nome": "Omelete de Espinafre",
+        "categoria": "Café da Manhã",
+        "cozinha": "Francesa",
+        "instrucoes": "1. Bata os ovos em uma tigela e tempere com sal e pimenta.\n2. Em uma frigideira, refogue o espinafre até murchar.\n3. Adicione os ovos batidos e cozinhe em fogo baixo até firmar.\n4. Dobre a omelete ao meio e sirva quente.",
+        "ingredientes": [
+            {"nome": "Ovos", "quantidade": "3 unidades"},
+            {"nome": "Espinafre", "quantidade": "1 xícara"},
+            {"nome": "Sal", "quantidade": "a gosto"},
+            {"nome": "Pimenta", "quantidade": "a gosto"}
+        ]
+    },
+    {
+        "nome": "Salada de Quinoa",
+        "categoria": "Entrada",
+        "cozinha": "Saudável",
+        "instrucoes": "1. Cozinhe a quinoa conforme as instruções da embalagem e deixe esfriar.\n2. Pique o tomate, o pepino e a cebola em cubos pequenos.\n3. Misture tudo em uma tigela e tempere com azeite, suco de limão, sal e pimenta.\n4. Sirva gelado.",
+        "ingredientes": [
+            {"nome": "Quinoa", "quantidade": "1 xícara"},
+            {"nome": "Tomate", "quantidade": "1 unidade"},
+            {"nome": "Pepino", "quantidade": "1 unidade"},
+            {"nome": "Cebola", "quantidade": "1/2 unidade"},
+            {"nome": "Azeite", "quantidade": "2 colheres de sopa"},
+            {"nome": "Limão", "quantidade": "1 unidade"},
+            {"nome": "Sal", "quantidade": "a gosto"},
+            {"nome": "Pimenta", "quantidade": "a gosto"}
+        ]
+    },
+    {
+        "nome": "Peixe Assado com Batatas",
+        "categoria": "Prato Principal",
+        "cozinha": "Mediterrânea",
+        "instrucoes": "1. Tempere os filés de peixe com sal, limão e azeite.\n2. Em uma assadeira, disponha as batatas fatiadas e coloque o peixe por cima.\n3. Regue com azeite e leve ao forno preaquecido a 180°C por 30 minutos.\n4. Sirva quente, acompanhado de salada verde.",
+        "ingredientes": [
+            {"nome": "Filé de peixe", "quantidade": "300g"},
+            {"nome": "Batata", "quantidade": "2 unidades"},
+            {"nome": "Cebola", "quantidade": "1 unidade"},
+            {"nome": "Azeite", "quantidade": "2 colheres de sopa"},
+            {"nome": "Limão", "quantidade": "1 unidade"},
+            {"nome": "Sal", "quantidade": "a gosto"}
+        ]
+    },
+    {
+        "nome": "Panqueca de Banana",
+        "categoria": "Café da Manhã",
+        "cozinha": "Saudável",
+        "instrucoes": "1. Amasse bem a banana até formar um purê.\n2. Misture com o ovo e a aveia até ficar uma massa homogênea.\n3. Aqueça uma frigideira antiaderente e asse pequenas porções até dourar dos dois lados.\n4. Sirva com mel ou frutas frescas.",
+        "ingredientes": [
+            {"nome": "Banana", "quantidade": "1 unidade"},
+            {"nome": "Ovo", "quantidade": "1 unidade"},
+            {"nome": "Aveia em flocos", "quantidade": "3 colheres de sopa"}
+        ]
+    },
+    {
+        "nome": "Creme de Abóbora",
+        "categoria": "Sopa",
+        "cozinha": "Brasileira",
+        "instrucoes": "1. Cozinhe a abóbora em pedaços até ficar bem macia.\n2. Bata no liquidificador com o caldo de legumes até virar um creme.\n3. Refogue a cebola e o alho em azeite e misture ao creme.\n4. Sirva quente com salsinha picada.",
+        "ingredientes": [
+            {"nome": "Abóbora", "quantidade": "500g"},
+            {"nome": "Caldo de legumes", "quantidade": "300ml"},
+            {"nome": "Cebola", "quantidade": "1 unidade"},
+            {"nome": "Alho", "quantidade": "2 dentes"},
+            {"nome": "Azeite", "quantidade": "1 colher de sopa"}
+        ]
+    },
+    {
+        "nome": "Arroz Integral com Brócolis",
+        "categoria": "Acompanhamento",
+        "cozinha": "Saudável",
+        "instrucoes": "1. Cozinhe o arroz integral em água com sal até ficar macio.\n2. Em outra panela, refogue o brócolis com alho e azeite.\n3. Misture o arroz cozido ao brócolis refogado.\n4. Sirva como acompanhamento de carnes ou peixes.",
+        "ingredientes": [
+            {"nome": "Arroz integral", "quantidade": "1 xícara"},
+            {"nome": "Brócolis", "quantidade": "1 maço"},
+            {"nome": "Alho", "quantidade": "2 dentes"},
+            {"nome": "Azeite", "quantidade": "1 colher de sopa"},
+            {"nome": "Sal", "quantidade": "a gosto"}
+        ]
+    },
+    {
+        "nome": "Quibe de Abóbora Assado",
+        "categoria": "Prato Principal",
+        "cozinha": "Árabe",
+        "instrucoes": "1. Hidrate o trigo para quibe conforme instruções da embalagem.\n2. Cozinhe a abóbora até ficar macia e amasse bem.\n3. Misture o trigo hidratado com a abóbora, cebola picada, hortelã e sal.\n4. Modele em uma assadeira, regue com azeite e asse a 180°C por 25 minutos.\n5. Sirva quente.",
+        "ingredientes": [
+            {"nome": "Trigo para quibe", "quantidade": "1 xícara"},
+            {"nome": "Abóbora", "quantidade": "300g"},
+            {"nome": "Cebola", "quantidade": "1 unidade"},
+            {"nome": "Hortelã", "quantidade": "a gosto"},
+            {"nome": "Sal", "quantidade": "a gosto"},
+            {"nome": "Azeite", "quantidade": "2 colheres de sopa"}
+        ]
+    }
+]
