@@ -1,0 +1,416 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fundo geral */
+body {
+    background-color: #f4fff6;
+    color: #333;
+    line-height: 1.6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* centraliza verticalmente */
+    padding: 20px;
+}
+
+/* Container central */
+.container {
+    max-width: 900px;
+    width: 100%;
+    background: #ffffff;
+    padding: 35px 25px;
+    border-radius: 20px; /* mais arredondado */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+/* Logo principal */
+.logo {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #009a5c;
+    margin-bottom: 8px;
+}
+
+/* Subtítulo */
+.subtitle {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #008c52;
+    margin-bottom: 18px;
+}
+
+/* Textos */
+p {
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+}
+
+/* Seção de boas-vindas */
+.welcome h2 {
+    font-size: 1.8rem;
+    color: #009a5c;
+    margin-bottom: 12px;
+}
+
+/* Links de navegação */
+ul {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 8px;
+}
+
+ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 22px;
+    background-color: #00c27a;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 154, 92, 0.2);
+}
+
+ul li a:hover {
+    background-color: #009a5c;
+    transform: scale(1.07);
+    box-shadow: 0 4px 10px rgba(0, 154, 92, 0.25);
+}
+
+/* Rodapé */
+footer {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+/* ===== ESTILO PARA PÁGINAS INTERNAS ===== */
+
+/* Container das páginas internas */
+.page-container {
+    max-width: 900px;
+    width: 100%;
+    background: #ffffff;
+    padding: 35px 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Cabeçalho interno */
+header h1 {
+    font-size: 2.2rem;
+    color: #009a5c;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+/* Subtítulos */
+main h2 {
+    font-size: 1.5rem;
+    margin: 18px 0;
+    color: #007b5e;
+    border-left: 6px solid #00c27a;
+    padding-left: 12px;
+    text-align: left;
+}
+
+/* Parágrafos */
+main p {
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Listas de recomendações */
+main ul {
+    list-style: disc;
+    padding-left: 28px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+main ul li {
+    margin: 8px 0;
+    font-size: 1rem;
+}
+
+/* Navegação interna */
+nav {
+    margin-top: 28px;
+    text-align: center;
+}
+
+nav p {
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #00c27a;
+    color: #fff;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0, 154, 92, 0.15);
+}
+
+nav ul li a:hover {
+    background-color: #009a5c;
+    transform: scale(1.07);
+    box-shadow: 0 4px 10px rgba(0, 154, 92, 0.25);
+}
+
+/* Rodapé interno */
+footer {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* ================= NOVOS ESTILOS ================= */
+
+/* Formulário de filtros */
+.filtros-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 180px;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #009a5c;
+}
+
+.form-group select {
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border 0.2s;
+}
+
+.form-group select:focus {
+    border: 1px solid #00c27a;
+    outline: none;
+}
+
+/* Botão filtrar */
+.btn-filtrar {
+    padding: 10px 20px;
+    background-color: #00c27a;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 154, 92, 0.2);
+}
+
+.btn-filtrar:hover {
+    background-color: #009a5c;
+    transform: scale(1.07);
+    box-shadow: 0 4px 10px rgba(0, 154, 92, 0.25);
+}
+
+/* Grid de receitas */
+.receitas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 22px;
+    margin-top: 28px;
+}
+
+/* Card de receita */
+.receita-card {
+    background: #f9fdfb;
+    border: 1px solid #e0f2ea;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: left;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.receita-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.receita-card h3 {
+    font-size: 1.25rem;
+    color: #009a5c;
+    margin-bottom: 10px;
+}
+
+.receita-card p {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Ingredientes e modo de preparo - listas */
+.receita-card ul,
+.receita-card ol {
+    margin: 10px 0 14px 20px;
+    padding-left: 15px;
+}
+
+.receita-card ul li,
+.receita-card ol li {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #333;
+}
+
+/* Títulos dentro do card */
+.receita-card strong {
+    color: #007b5e;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+/* ================= FORMULÁRIO DE CONTATO ================= */
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.contato-form .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.contato-form label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #009a5c;
+}
+
+.contato-form input,
+.contato-form textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border 0.2s, box-shadow 0.2s;
+    resize: vertical;
+}
+
+.contato-form input:focus,
+.contato-form textarea:focus {
+    border: 1px solid #00c27a;
+    box-shadow: 0 0 6px rgba(0, 154, 92, 0.2);
+    outline: none;
+}
+
+.btn-enviar {
+    align-self: center;
+    padding: 12px 28px;
+    background-color: #00c27a;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 154, 92, 0.2);
+}
+
+.btn-enviar:hover {
+    background-color: #009a5c;
+    transform: scale(1.07);
+    box-shadow: 0 4px 10px rgba(0, 154, 92, 0.25);
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 2.2rem;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+    }
+
+    ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    ul li a {
+        width: 100%;
+        padding: 12px;
+        border-radius: 15px;
+    }
+
+    .filtros-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+
+    .btn-filtrar {
+        width: 100%;
+    }
+}
