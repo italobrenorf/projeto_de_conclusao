@@ -378,7 +378,8 @@ footer {
 
 /* Responsividade */
 @media (max-width: 768px) {
-    .container {
+    .container,
+    .page-container {
         padding: 20px;
     }
 
@@ -412,5 +413,30 @@ footer {
 
     .btn-filtrar {
         width: 100%;
+    }
+
+    .contato-form {
+        gap: 14px;
+    }
+
+    .btn-enviar {
+        width: 100%;
+    }
+
+    .receitas-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+/* Responsividade extra para telas muito pequenas (celulares menores que 500px) */
+@media (max-width: 500px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        width: 100%;
+        text-align: center;
     }
 }
