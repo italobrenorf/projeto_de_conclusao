@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - Niemann-Pick</title>
+    <title>Contato - Vita+ | Portal Niemann-Pick</title>
     <link rel="stylesheet" href="../static/style.css">
 </head>
+
 <body>
     <div class="page-container">
         <header>
             <h1>Fale Conosco</h1>
+            <p>Entre em contato para dúvidas, sugestões ou feedback sobre o projeto.</p>
         </header>
 
         <main>
             <section>
-                <p>Este espaço é dedicado para sugestões, dúvidas ou comentários sobre o projeto.</p>
-                <p>Como este é um trabalho educacional, não oferecemos aconselhamento médico. Para informações específicas, procure sempre um profissional de saúde.</p>
-            </section>
-
-            <section>
-                <h2>Formulário de Contato</h2>
-                <form action="#" method="post" class="contato-form">
+                <h2>Envie sua mensagem</h2>
+                <p>
+                    Preencha o formulário abaixo e sua mensagem será enviada diretamente para nossa equipe.
+                    <strong>Obs.:</strong> Este portal tem caráter educacional e não substitui acompanhamento médico.
+                </p>
+                <form action="{% url 'contato' %}" method="post" class="contato-form">
+                    {% csrf_token %}
                     <div class="form-group">
                         <label for="nome">Nome:</label>
                         <input type="text" id="nome" name="nome" required>
@@ -38,6 +41,61 @@
 
                     <button type="submit" class="btn-enviar">Enviar</button>
                 </form>
+
+                {% if messages %}
+                <div class="mensagens">
+                    {% for msg in messages %}
+                    <p class="{{ msg.tags }}">{{ msg }}</p>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+            </section>
+
+            <section>
+                <h2>Sobre o Projeto</h2>
+                <p>
+                    Este portal foi desenvolvido como parte do
+                    <strong>Trabalho de Conclusão de Curso Técnico em Informática para Internet</strong>
+                    no <strong>Instituto Federal Baiano – Campus Guanambi</strong>, no ano de 2025.
+                </p>
+                <p>
+                    O objetivo do projeto é disponibilizar informações acessíveis sobre a
+                    <strong>Doença de Niemann-Pick</strong>, oferecendo recomendações alimentares,
+                    sugestões de receitas e apoio informativo para pacientes, familiares e cuidadores.
+                </p>
+            </section>
+
+            <section>
+                <h2>Equipe de Desenvolvimento</h2>
+                <div class="equipe">
+                    <div class="membro">
+                        <img src="../static/img/italo.jpg" alt="Foto de Ítalo Breno" width="150">
+                        <h3>Ítalo Breno Rocha Ferreira</h3>
+                        <p>Responsável pelo <strong>Back-end</strong>, banco de dados e lógica em JavaScript.</p>
+                        <p><a href="https://www.instagram.com/italobrenor_f?igsh=NGJqNHE1Nm9tNzc="
+                                target="_blank">Instagram</a> | <a href="https://github.com/italobrenorf"
+                                target="_blank">GitHub</a></p>
+                    </div>
+
+                    <div class="membro">
+                        <img src="../static/img/leonardo.jpg" alt="Foto de Leonardo Vinicius" width="150">
+                        <h3>Leonardo Vinicius Pardinho Bernardo</h3>
+                        <p>Responsável pelo <strong>Front-end</strong> e design do projeto.</p>
+                        <p><a href="https://www.instagram.com/leozinxxr_?igsh=ZHV4YmhlbHh0Z3Vh"
+                                target="_blank">Instagram</a> | <a href="https://github.com/leonardo-vinicius2"
+                                target="_blank">GitHub</a></p>
+                    </div>
+
+                    <div class="membro">
+                        <img src="../static/img/emilly.jpg" alt="Foto de Emilly Victória" width="150">
+                        <h3>Emilly Victória Alves dos Santos</h3>
+                        <p>Responsável pela <strong>Documentação</strong>, organização e gerenciamento do projeto.</p>
+                        <p><a href="https://www.instagram.com/emillyszf?igsh=cWg4ZXFsd2cydjlm"
+                                target="_blank">Instagram</a> | <a href="https://github.com/emilly-victoria"
+                                target="_blank">GitHub</a></p>
+                    </div>
+                </div>
             </section>
 
             <nav>
@@ -52,8 +110,10 @@
         </main>
 
         <footer>
-            <p>Projeto de Conclusão de Curso - 2025</p>
+            <p>Projeto de Conclusão de Curso - 2025 | Instituto Federal Baiano – Campus Guanambi</p>
+            <p><em>Este portal tem caráter educativo e não substitui acompanhamento médico especializado.</em></p>
         </footer>
     </div>
 </body>
+
 </html>

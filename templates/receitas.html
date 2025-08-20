@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../static/style.css">
     <title>Receitas Sugeridas - Niemann-Pick</title>
+    
+    <!-- Carregamento correto dos recursos estáticos -->
     {% load static %}
-
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    
     <!-- Disponibiliza a URL correta do JSON para o app.js -->
-    <script defer>
+    <script>
         window.RECIPES_JSON_URL = "{% static 'data/receitas.json' %}";
     </script>
-
-    <!-- Carrega o script principal UMA ÚNICA VEZ -->
+    
+    <!-- Carrega o script principal -->
     <script src="{% static 'js/app.js' %}" defer></script>
-
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
     <div class="page-container">
@@ -35,6 +35,8 @@
                         <option value="Sopa">Sopa</option>
                         <option value="Café da Manhã">Café da Manhã</option>
                         <option value="Acompanhamento">Acompanhamento</option>
+                        <option value="Sobremesa">Sobremesa</option>
+                        <option value="Lanche">Lanche</option>
                     </select>
                 </div>
 
@@ -49,14 +51,21 @@
                         <option value="Mediterrânea">Mediterrânea</option>
                         <option value="Árabe">Árabe</option>
                         <option value="Internacional">Internacional</option>
+                        <option value="Portuguesa">Portuguesa</option>
+                        <option value="Indiana">Indiana</option>
                     </select>
                 </div>
 
                 <button id="btn-filtrar" type="button" class="btn-filtrar">Filtrar</button>
             </form>
 
+            <!-- Área de carregamento -->
+            <div id="loading">
+                <p>Carregando receitas...</p>
+            </div>
+
             <!-- Lista de receitas -->
-            <div id="lista-receitas" class="receitas-grid"></div>
+            <div id="lista-receitas"></div>
 
             <!-- Navegação -->
             <nav>
@@ -71,8 +80,9 @@
         </main>
 
         <footer>
-            <p>Projeto de Conclusão de Curso - 2025</p>
+            <p>Projeto de Conclusão de Curso - 2025 | Instituto Federal Baiano – Campus Guanambi</p>
+            <p><em>Este portal tem caráter educativo e não substitui acompanhamento médico especializado.</em></p>
         </footer>
     </div>
 </body>
-</html>
+</html> 

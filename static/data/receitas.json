@@ -132,5 +132,240 @@
             {"nome": "Sal", "quantidade": "a gosto"},
             {"nome": "Azeite", "quantidade": "2 colheres de sopa"}
         ]
+    },
+    {
+        "nome": "Mingau de Aveia com Frutas Vermelhas",
+        "categoria": "Café da Manhã",
+        "cozinha": "Saudável",
+        "instrucoes": "1. Cozinhe a aveia com bebida vegetal até engrossar.\n2. Adicione mel e canela.\n3. Sirva com frutas vermelhas frescas por cima.",
+        "ingredientes": [
+            {"nome": "Aveia em flocos", "quantidade": "4 colheres de sopa"},
+            {"nome": "Bebida de amêndoas", "quantidade": "200ml"},
+            {"nome": "Mel", "quantidade": "1 colher de chá"},
+            {"nome": "Canela", "quantidade": "a gosto"},
+            {"nome": "Frutas vermelhas", "quantidade": "1/2 xícara"}
+        ]
+    },
+    {
+        "nome": "Sopa Cremosa de Abóbora",
+        "categoria": "Sopa",
+        "cozinha": "Brasileira",
+        "instrucoes": "1. Cozinhe a abóbora até ficar macia.\n2. Bata no liquidificador com caldo de legumes.\n3. Refogue alho e cebola em azeite e adicione ao creme.\n4. Sirva com salsinha.",
+        "ingredientes": [
+            {"nome": "Abóbora", "quantidade": "500g"},
+            {"nome": "Caldo de legumes", "quantidade": "500ml"},
+            {"nome": "Alho", "quantidade": "2 dentes"},
+            {"nome": "Cebola", "quantidade": "1 unidade"},
+            {"nome": "Azeite", "quantidade": "1 colher de sopa"},
+            {"nome": "Salsinha", "quantidade": "a gosto"}
+        ]
+    },
+    {
+        "nome": "Caldo Verde Light",
+        "categoria": "Sopa",
+        "cozinha": "Portuguesa",
+        "instrucoes": "1. Cozinhe as batatas com cebola e alho.\n2. Bata no liquidificador até virar creme.\n3. Acrescente couve fatiada e cozinhe mais alguns minutos.\n4. Sirva quente.",
+        "ingredientes": [
+            {"nome": "Batata", "quantidade": "2 unidades"},
+            {"nome": "Cebola", "quantidade": "1 unidade"},
+            {"nome": "Alho", "quantidade": "2 dentes"},
+            {"nome": "Couve", "quantidade": "1 xícara fatiada"},
+            {"nome": "Azeite", "quantidade": "1 colher de sopa"}
+        ]
+    },
+    {
+        "nome": "Salada de Quinoa com Legumes",
+        "categoria": "Entrada",
+        "cozinha": "Mediterrânea",
+        "instrucoes": "1. Cozinhe a quinoa e deixe esfriar.\n2. Misture com pepino, tomate, cebola e hortelã.\n3. Tempere com azeite, sal e limão.\n4. Sirva gelada.",
+        "ingredientes": [
+            {"nome": "Quinoa", "quantidade": "1 xícara"},
+            {"nome": "Pepino", "quantidade": "1 unidade"},
+            {"nome": "Tomate", "quantidade": "1 unidade"},
+            {"nome": "Cebola", "quantidade": "1/2 unidade"},
+            {"nome": "Hortelã", "quantidade": "a gosto"},
+            {"nome": "Azeite", "quantidade": "2 colheres de sopa"},
+            {"nome": "Limão", "quantidade": "1 unidade"},
+            {"nome": "Sal", "quantidade": "a gosto"}
+        ]
+    },
+    {
+        "nome": "Tomates Recheados com Cogumelos",
+        "categoria": "Entrada",
+        "cozinha": "Mediterrânea",
+        "instrucoes": "1. Corte a tampa dos tomates e retire o miolo.\n2. Refogue cogumelos, cebola e alho.\n3. Recheie os tomates e leve ao forno por 15 minutos.\n4. Sirva quente.",
+        "ingredientes": [
+            {"nome": "Tomates", "quantidade": "4 unidades"},
+            {"nome": "Cogumelos frescos", "quantidade": "150g"},
+            {"nome": "Cebola", "quantidade": "1 unidade"},
+            {"nome": "Alho", "quantidade": "2 dentes"},
+            {"nome": "Azeite", "quantidade": "1 colher de sopa"},
+            {"nome": "Pão ralado", "quantidade": "a gosto"}
+        ]
+    },
+    {
+        "nome": "Lasanha de Legumes com Molho Branco de Soja",
+        "categoria": "Prato Principal",
+        "cozinha": "Italiana",
+        "instrucoes": "1. Refogue os legumes com azeite.\n2. Prepare um molho branco com bebida de soja e amido de milho.\n3. Monte a lasanha alternando camadas de massa, legumes e molho.\n4. Leve ao forno até gratinar.",
+        "ingredientes": [
+            {"nome": "Placas de lasanha", "quantidade": "200g"},
+            {"nome": "Espinafre", "quantidade": "200g"},
+            {"nome": "Abobrinha", "quantidade": "1 unidade"},
+            {"nome": "Cenoura", "quantidade": "1 unidade"},
+            {"nome": "Cogumelos", "quantidade": "150g"},
+            {"nome": "Bebida de soja", "quantidade": "500ml"},
+            {"nome": "Amido de milho", "quantidade": "2 colheres de sopa"},
+            {"nome": "Azeite", "quantidade": "2 colheres de sopa"}
+        ]
+    },
+    {
+        "nome": "Purê de Batata Doce",
+        "categoria": "Acompanhamento",
+        "cozinha": "Saudável",
+        "instrucoes": "1. Cozinhe a batata doce até ficar macia.\n2. Amasse e misture com azeite e sal.\n3. Sirva como acompanhamento de carnes ou peixes.",
+        "ingredientes": [
+            {"nome": "Batata doce", "quantidade": "2 unidades"},
+            {"nome": "Azeite", "quantidade": "1 colher de sopa"},
+            {"nome": "Sal", "quantidade": "a gosto"}
+        ]
+    },
+    {
+        "nome": "Bolo Integral de Banana",
+        "categoria": "Sobremesa",
+        "cozinha": "Saudável",
+        "instrucoes": "1. Bata ovos, óleo e bananas no liquidificador.\n2. Misture com a farinha integral e canela.\n3. Acrescente nozes e uvas-passas.\n4. Asse em forno a 180°C por 35 minutos.",
+        "ingredientes": [
+            {"nome": "Bananas", "quantidade": "3 unidades"},
+            {"nome": "Ovos", "quantidade": "3 unidades"},
+            {"nome": "Farinha integral", "quantidade": "2 xícaras"},
+            {"nome": "Óleo vegetal", "quantidade": "1/2 xícara"},
+            {"nome": "Canela em pó", "quantidade": "1 colher de chá"},
+            {"nome": "Nozes", "quantidade": "1/2 xícara"},
+            {"nome": "Uvas-passas", "quantidade": "1/2 xícara"}
+        ]
+    },
+    {
+        "nome": "Pudim de Chia com Manga",
+        "categoria": "Sobremesa",
+        "cozinha": "Saudável",
+        "instrucoes": "1. Misture as sementes de chia com bebida de amêndoas.\n2. Deixe hydratar na geladeira por 4 horas.\n3. Sirva com cubos de manga fresca.",
+        "ingredientes": [
+            {"nome": "Sementes de chia", "quantidade": "4 colheres de sopa"},
+            {"nome": "Bebida de amêndoas", "quantidade": "250ml"},
+            {"nome": "Manga", "quantidade": "1 unidade"}
+        ]
+    },
+    {
+        "nome": "Risoto de Quinoa com Abobrinha",
+        "categoria": "Prato Principal",
+        "cozinha": "Italiana",
+        "instrucoes": "1. Refogue cebola e alho no azeite.\n2. Acrescente a quinoa lavada e refogue rapidamente.\n3. Adicione caldo de legumes e cozinhe até ficar macia.\n4. Misture abobrinha ralada e sirva com salsinha.",
+        "ingredientes": [
+            {"nome": "Quinoa", "quantidade": "1 xícara"},
+            {"nome": "Abobrinha", "quantidade": "1 unidade ralada"},
+            {"nome": "Cebola", "quantidade": "1 unidade"},
+            {"nome": "Alho", "quantidade": "2 dentes"},
+            {"nome": "Azeite", "quantidade": "1 colher de sopa"},
+            {"nome": "Caldo de legumes", "quantidade": "400ml"}
+        ]
+    },
+    {
+        "nome": "Grão-de-bico ao Curry",
+        "categoria": "Prato Principal",
+        "cozinha": "Indiana",
+        "instrucoes": "1. Cozinhe o grão-de-bico até ficar macio.\n2. Refogue cebola, alho e gengibre.\n3. Adicione tomate, curry e leite de coco.\n4. Misture o grão-de-bico e deixe apurar.\n5. Sirva com arroz integral.",
+        "ingredientes": [
+            {"nome": "Grão-de-bico", "quantidade": "1 xícara"},
+            {"nome": "Tomate", "quantidade": "2 unidades"},
+            {"nome": "Cebola", "quantidade": "1 unidade"},
+            {"nome": "Alho", "quantidade": "2 dentes"},
+            {"nome": "Gengibre", "quantidade": "1 colher de chá"},
+            {"nome": "Leite de coco", "quantidade": "200ml"},
+            {"nome": "Curry em pó", "quantidade": "1 colher de sopa"}
+        ]
+    },
+    {
+        "nome": "Tabule Integral",
+        "categoria": "Entrada",
+        "cozinha": "Árabe",
+        "instrucoes": "1. Hidrate o trigo integral.\n2. Misture com tomate, pepino, cebola roxa e salsinha.\n3. Tempere com azeite, limão e sal.\n4. Sirva fresco.",
+        "ingredientes": [
+            {"nome": "Trigo integral para quibe", "quantidade": "1 xícara"},
+            {"nome": "Tomate", "quantidade": "2 unidades"},
+            {"nome": "Pepino", "quantidade": "1 unidade"},
+            {"nome": "Cebola roxa", "quantidade": "1/2 unidade"},
+            {"nome": "Salsinha", "quantidade": "a gosto"},
+            {"nome": "Limão", "quantidade": "1 unidade"},
+            {"nome": "Azeite", "quantidade": "2 colheres de sopa"}
+        ]
+    },
+    {
+        "nome": "Sopa de Lentilha",
+        "categoria": "Sopa",
+        "cozinha": "Internacional",
+        "instrucoes": "1. Refogue cebola, alho e cenoura.\n2. Adicione lentilhas lavadas e caldo de legumes.\n3. Cozinhe por 25 minutos até engrossar.\n4. Sirva quente.",
+        "ingredientes": [
+            {"nome": "Lentilhas", "quantidade": "1 xícara"},
+            {"nome": "Cenoura", "quantidade": "1 unidade"},
+            {"nome": "Cebola", "quantidade": "1 unidade"},
+            {"nome": "Alho", "quantidade": "2 dentes"},
+            {"nome": "Caldo de legumes", "quantidade": "600ml"},
+            {"nome": "Azeite", "quantidade": "1 colher de sopa"}
+        ]
+    },
+    {
+        "nome": "Creme de Espinafre",
+        "categoria": "Sopa",
+        "cozinha": "Saudável",
+        "instrucoes": "1. Refogue alho e cebola em azeite.\n2. Adicione o espinafre e deixe murchar.\n3. Bata no liquidificador com bebida vegetal.\n4. Sirva quente com pimenta-do-reino.",
+        "ingredientes": [
+            {"nome": "Espinafre", "quantidade": "2 xícaras"},
+            {"nome": "Cebola", "quantidade": "1 unidade"},
+            {"nome": "Alho", "quantidade": "2 dentes"},
+            {"nome": "Bebida de soja", "quantidade": "300ml"},
+            {"nome": "Azeite", "quantidade": "1 colher de sopa"}
+        ]
+    },
+    {
+        "nome": "Salada de Grão-de-bico com Legumes",
+        "categoria": "Entrada",
+        "cozinha": "Mediterrânea",
+        "instrucoes": "1. Cozinhe o grão-de-bico.\n2. Misture com tomate, pepino and cebola roxa.\n3. Tempere com limão, azeite e salsa.\n4. Sirva gelada.",
+        "ingredientes": [
+            {"nome": "Grão-de-bico", "quantidade": "1 xícara"},
+            {"nome": "Tomate", "quantidade": "1 unidade"},
+            {"nome": "Pepino", "quantidade": "1 unidade"},
+            {"nome": "Cebola roxa", "quantidade": "1/2 unidade"},
+            {"nome": "Salsa", "quantidade": "a gosto"},
+            {"nome": "Limão", "quantidade": "1 unidade"},
+            {"nome": "Azeite", "quantidade": "2 colheres de sopa"}
+        ]
+    },
+    {
+        "nome": "Wrap de Tofu com Vegetais",
+        "categoria": "Lanche",
+        "cozinha": "Internacional",
+        "instrucoes": "1. Grelhe o tofu com azeite e temperos.\n2. Monte o wrap com alface, cenoura ralada e pepino.\n3. Enrole e sirva frio ou quente.",
+        "ingredientes": [
+            {"nome": "Tofu", "quantidade": "150g"},
+            {"nome": "Tortilha integral", "quantidade": "2 unidades"},
+            {"nome": "Alface", "quantidade": "2 folhas"},
+            {"nome": "Cenoura ralada", "quantidade": "1 unidade pequena"},
+            {"nome": "Pepino", "quantidade": "1/2 unidade"},
+            {"nome": "Azeite", "quantidade": "1 colher de sopa"}
+        ]
+    },
+    {
+        "nome": "Canelone de Abóbora",
+        "categoria": "Prato Principal",
+        "cozinha": "Italiana",
+        "instrucoes": "1. Cozinhe a abóbora e amasse até virar purê.\n2. Recheie as massas de canelone com o purê.\n3. Cubra com molho de tomate caseiro.\n4. Leve ao forno até dourar.",
+        "ingredientes": [
+            {"nome": "Massa para canelone", "quantidade": "200g"},
+            {"nome": "Abóbora", "quantidade": "300g"},
+            {"nome": "Molho de tomate", "quantidade": "1 xícara"},
+            {"nome": "Azeite", "quantidade": "1 colher de sopa"}
+        ]
     }
 ]
